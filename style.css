@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+}
+
+.nav {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+
+    /* width: 900px; */
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+li {
+    padding-right: 15px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.btn {
+    box-shadow: 3px 3px black;
+    color: white;
+    background-color: rgb(23, 162, 184);
+}
+
+.active {
+    font-weight: bold;
+}
